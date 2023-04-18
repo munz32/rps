@@ -33,6 +33,7 @@ function playRound(){
 
     if (compChoice == answer){
         console.log("Tie, play again");
+        alert("Tie!")
         playRound();
     }
     else if(answer =="Rock" & compChoice =="Scissors"){
